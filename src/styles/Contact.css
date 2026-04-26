@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     padding: 120px 0px 20px;
-   
+
     overflow: hidden;
     background: #FDF0F2;
 }
@@ -481,18 +481,60 @@
 }
 
 
-.ct-corner-tl, .ct-corner-tr,
-.ct-corner-bl, .ct-corner-br {
-  position: absolute;
-  width: 120px; height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 0.7;
-  z-index: 2;
-  pointer-events: none;
+.ct-corner-tl,
+.ct-corner-tr,
+.ct-corner-bl,
+.ct-corner-br {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    z-index: 2;
+    pointer-events: none;
 }
 
-.ct-corner-tl { top: 80px;    left: 80px;   background-image: url('/assets/decorations/CourbeHG.svg'); }
-.ct-corner-tr { top: 80px; right: 80px;   background-image: url('/assets/decorations/CourbeHD.svg'); }
-.ct-corner-bl { bottom: 80px; left: 80px; background-image: url('/assets/decorations/CourbeBG.svg'); }
-.ct-corner-br { bottom: 80px; right: 80px;background-image: url('/assets/decorations/CourbeBD.svg'); }
+.ct-corner-tl {
+    top: 80px;
+    left: 80px;
+    background-image: url('/assets/decorations/CourbeHG.svg');
+}
+
+.ct-corner-tr {
+    top: 80px;
+    right: 80px;
+    background-image: url('/assets/decorations/CourbeHD.svg');
+}
+
+.ct-corner-bl {
+    bottom: 80px;
+    left: 80px;
+    background-image: url('/assets/decorations/CourbeBG.svg');
+}
+
+.ct-corner-br {
+    bottom: 80px;
+    right: 80px;
+    background-image: url('/assets/decorations/CourbeBD.svg');
+}
+
+
+
+@media (max-width: 768px) {
+
+    .ct-corner-tl,
+    .ct-corner-tr,
+    .ct-corner-bl,
+    .ct-corner-br {
+        display: none;
+    }
+
+    .ct {
+        padding: 100px 24px 60px;
+    }
+
+    .ct-main {
+        grid-template-columns: 1fr;
+    }
+}
