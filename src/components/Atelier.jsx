@@ -60,7 +60,7 @@ export default function Atelier({ lang }) {
             </div>
             <div className="at-cartel">
               <img
-                src="/src/assets/decorations/rubon.svg"
+                src="../../public/assets/decorations/rubon.svg"
                 className="at-cartel-ribbon"
                 alt=""
               />
