@@ -1,0 +1,69 @@
+.ft {
+  background: #7A2840;
+  padding: 12px 60px 0;
+  position: relative;
+}
+
+/* ─── SVG SÉPARATEUR EN HAUT ─── */
+.ft-separator {
+  width: 100%;
+  height: 14px;
+  display: block;
+  margin-bottom: 10px;
+  background-image: url('../assets/decorations/footer.svg');
+  background-repeat: no-repeat; 
+  background-size: 100% 100%; 
+  background-position: center;
+  opacity: 0.7;
+  transform: scaleY(-1);
+}
+/* ─── DIVIDER GEMS ─── */
+.ft-divider {
+  display: none;
+}
+.ft-gem {
+  display: inline-block; width: 4px; height: 4px;
+  background: #F2C4CE; transform: rotate(45deg);
+}
+
+/* ─── CENTER LOGO ─── */
+.ft-center { display: none; }
+.ft-logo   { display: none; }
+
+.ft-sub {
+  font-family: 'Raleway', sans-serif;
+  font-size: 6.5px; font-weight: 500;
+  letter-spacing: 0.28em; text-transform: uppercase;
+  color: #FDF0F2;
+}
+
+/* ─── BOTTOM BAR ─── */
+.ft-bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-bottom: 0;
+  border-top: none;
+}
+
+.ft-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 12px;
+}
+
+.ft-copy {
+  font-family: 'Raleway', sans-serif;
+  font-size: 6.5px; letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(253,240,242,0.7);
+}
+.ft-made {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 11px; font-style: italic;
+  color: rgba(253,240,242,0.7);
+}
+
+/* ─── BANDE BAS ─── */
+.ft-band { display: none; }
