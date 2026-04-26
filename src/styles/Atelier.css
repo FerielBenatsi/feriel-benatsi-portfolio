@@ -12,15 +12,7 @@
     background: #3D2428;
 }
 
-/* fond damask */
-.at::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='0.4' opacity='0.04'%3E%3Cellipse cx='80' cy='80' rx='28' ry='36'/%3E%3Cellipse cx='80' cy='80' rx='16' ry='22'/%3E%3Cpath d='M80 44Q66 52 62 64Q60 74 64 80Q72 66 80 64Q88 66 96 80Q100 74 98 64Q94 52 80 44Z'/%3E%3Ccircle cx='80' cy='80' r='8'/%3E%3C/g%3E%3C/svg%3E");
-    background-size: 160px;
-    pointer-events: none;
-}
+
 
 /* ─── LIGNE DE MUR ─── */
 .at-wall-line {
