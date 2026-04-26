@@ -1,5 +1,5 @@
 import "../styles/Footer.css";
-import separator from "../../public/assets/decorations/footer.svg";
+import separator from "/assets/decorations/footer.svg";
 
 export default function Footer() {
   return (

@@ -15,7 +15,7 @@
 .intro-bg {
   position: absolute;
   inset: 0;
-  background-image: url('../../public/assets/decorations/Courbes.svg');
+  background-image: url('/assets/decorations/Courbes.svg');
   background-size: 120px;
   background-repeat: repeat;
   opacity: 0.3;
@@ -199,25 +199,25 @@
 .corner.tl {
     top: 6px;
     left: 6px;
-    background-image: url('../../public/assets/decorations/CourbeHG.svg');
+    background-image: url('/assets/decorations/CourbeHG.svg');
 }
 
 .corner.tr {
     top: 6px;
     right: 6px;
-    background-image: url('../../public/assets/decorations/CourbeHD.svg');
+    background-image: url('/assets/decorations/CourbeHD.svg');
 }
 
 .corner.bl {
     bottom: 6px;
     left: 6px;
-    background-image: url('../../public/assets/decorations/CourbeBG.svg');
+    background-image: url('/assets/decorations/CourbeBG.svg');
 }
 
 .corner.br {
     bottom: 6px;
     right: 6px;
-    background-image: url('../../public/assets/decorations/CourbeBD.svg');
+    background-image: url('/assets/decorations/CourbeBD.svg');
 }
 
 /* ─── CONTENU LETTRE ─── */

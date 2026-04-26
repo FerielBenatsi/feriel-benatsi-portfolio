@@ -23,7 +23,7 @@ export default function Navbar({ lang, setLang }) {
     <>
       {/* Décoration SVG au dessus */}
       <div className="navbar-top-deco">
-        <img src="../../public/assets/decorations/separateur.svg" alt="" />
+        <img src="/assets/decorations/separateur.svg" alt="" />
       </div>
 
       <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>

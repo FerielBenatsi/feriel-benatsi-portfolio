@@ -492,7 +492,7 @@
   pointer-events: none;
 }
 
-.ct-corner-tl { top: 80px;    left: 80px;   background-image: url('../../public/assets/decorations/CourbeHG.svg'); }
-.ct-corner-tr { top: 80px; right: 80px;   background-image: url('../../public/assets/decorations/CourbeHD.svg'); }
-.ct-corner-bl { bottom: 80px; left: 80px; background-image: url('../../public/assets/decorations/CourbeBG.svg'); }
-.ct-corner-br { bottom: 80px; right: 80px;background-image: url('../../public/assets/decorations/CourbeBD.svg'); }
+.ct-corner-tl { top: 80px;    left: 80px;   background-image: url('/assets/decorations/CourbeHG.svg'); }
+.ct-corner-tr { top: 80px; right: 80px;   background-image: url('/assets/decorations/CourbeHD.svg'); }
+.ct-corner-bl { bottom: 80px; left: 80px; background-image: url('/assets/decorations/CourbeBG.svg'); }
+.ct-corner-br { bottom: 80px; right: 80px;background-image: url('/assets/decorations/CourbeBD.svg'); }

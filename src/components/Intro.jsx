@@ -6,22 +6,22 @@ export default function Intro({ onEnter }) {
       <div className="intro-bg" />
       <img
         className="petal"
-        src="../../public/assets/decorations/Plume1.svg"
+        src="/assets/decorations/Plume1.svg"
         style={{ left: "7%", animationDuration: "7.5s", animationDelay: "0s" }}
       />
       <img
         className="petal"
-        src="../../public/assets/decorations/Plume2.svg"
+        src="/assets/decorations/Plume2.svg"
         style={{ left: "20%", animationDuration: "9s", animationDelay: "1.5s" }}
       />
       <img
         className="petal"
-        src="../../public/assets/decorations/Plume3.svg"
+        src="/assets/decorations/Plume3.svg"
         style={{ left: "35%", animationDuration: "8s", animationDelay: "3s" }}
       />
       <img
         className="petal"
-        src="../../public/assets/decorations/Plume1.svg"
+        src="/assets/decorations/Plume1.svg"
         style={{
           left: "55%",
           animationDuration: "10s",
@@ -30,12 +30,12 @@ export default function Intro({ onEnter }) {
       />
       <img
         className="petal"
-        src="../../public/assets/decorations/Plume2.svg"
+        src="/assets/decorations/Plume2.svg"
         style={{ left: "70%", animationDuration: "11s", animationDelay: "2s" }}
       />
       <img
         className="petal"
-        src="../../public/assets/decorations/Plume3.svg"
+        src="/assets/decorations/Plume3.svg"
         style={{ left: "85%", animationDuration: "9.5s", animationDelay: "4s" }}
       />
 
