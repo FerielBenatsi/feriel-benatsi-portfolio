@@ -29,7 +29,7 @@ body {
   top: 0;
   width: 100vh;     /* largeur = hauteur écran car pivoté */
   height: 40px;     /* épaisseur de la bordure */
-  background-image: url('../../public/assets/decorations/tri.svg');
+  background-image: url('/assets/decorations/tri.svg');
   background-repeat: repeat-x;
   background-size: auto 40px;
   opacity: 0.6;

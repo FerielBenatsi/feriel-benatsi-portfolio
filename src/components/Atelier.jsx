@@ -1,10 +1,10 @@
 import "../styles/Atelier.css";
-import dessin1 from "/assets/decorations/1000122041.jpg";
-import dessin2 from "/assets/decorations/IMG_20260409_185634.jpg";
+
+
 
 const artworks = [
-  { num: "Œuvre I", title: "Cygnes Amoureux", img: dessin1 },
-  { num: "Œuvre II", title: "Le Jardin Aquatique", img: dessin2 },
+  { num: "Œuvre I", title: "Cygnes Amoureux", img: "/assets/decorations/1000122041.jpg" },
+  { num: "Œuvre II", title: "Le Jardin Aquatique", img: "/assets/decorations/IMG_20260409_185634.jpg" },
 ];
 export default function Atelier({ lang }) {
   const t = {
