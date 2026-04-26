@@ -1,6 +1,6 @@
 import "../styles/Atelier.css";
-import dessin1 from "../assets/decorations/1000122041.jpg";
-import dessin2 from "../assets/decorations/IMG_20260409_185634.jpg";
+import dessin1 from "../../public/assets/decorations/1000122041.jpg";
+import dessin2 from "../../public/assets/decorations/IMG_20260409_185634.jpg";
 
 const artworks = [
   { num: "Œuvre I", title: "Cygnes Amoureux", img: dessin1 },

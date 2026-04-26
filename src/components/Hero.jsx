@@ -35,22 +35,22 @@ export default function Hero({ lang }) {
       {/* Plumes / pétales */}
       <img
         className="petal"
-        src="/src/assets/decorations/Plume1.svg"
+        src="../../public/assets/decorations/Plume1.svg"
         style={{ left: "7%", animationDuration: "7.5s", animationDelay: "0s" }}
       />
       <img
         className="petal"
-        src="/src/assets/decorations/Plume2.svg"
+        src="../../public/assets/decorations/Plume2.svg"
         style={{ left: "20%", animationDuration: "9s", animationDelay: "1.5s" }}
       />
       <img
         className="petal"
-        src="/src/assets/decorations/Plume3.svg"
+        src="../../public/assets/decorations/Plume3.svg"
         style={{ left: "35%", animationDuration: "8s", animationDelay: "3s" }}
       />
       <img
         className="petal"
-        src="/src/assets/decorations/Plume1.svg"
+        src="../../public/assets/decorations/Plume1.svg"
         style={{
           left: "55%",
           animationDuration: "10s",
@@ -59,12 +59,12 @@ export default function Hero({ lang }) {
       />
       <img
         className="petal"
-        src="/src/assets/decorations/Plume2.svg"
+        src="../../public/assets/decorations/Plume2.svg"
         style={{ left: "70%", animationDuration: "11s", animationDelay: "2s" }}
       />
       <img
         className="petal"
-        src="/src/assets/decorations/Plume3.svg"
+        src="../../public/assets/decorations/Plume3.svg"
         style={{ left: "85%", animationDuration: "9.5s", animationDelay: "4s" }}
       />
 
@@ -75,7 +75,7 @@ export default function Hero({ lang }) {
         {/* Cadre avec nom */}
         <div className="hero-frame">
           <img
-            src="/src/assets/decorations/Centre.svg"
+            src="../../public/assets/decorations/Centre.svg"
             className="hero-frame-svg"
             alt=""
           />
