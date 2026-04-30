@@ -41,10 +41,6 @@ export default function Intro({ onEnter }) {
 
       <div className="envelope-scene">
         <div className="letter">
-          <div className="corner tl" />
-          <div className="corner tr" />
-          <div className="corner bl" />
-          <div className="corner br" />
           <div className="letter-content">
             <p className="letter-eyebrow">
               ✦ &nbsp; Saison 2026 · Paris &nbsp; ✦
@@ -65,6 +61,8 @@ export default function Intro({ onEnter }) {
               <em>Mlle Feriel Benatsi</em>
               <br />
               Designer UI/UX &amp; Développeuse
+              <br />
+              <br />
               <br />
               Sorbonne Université · Paris
             </p>
